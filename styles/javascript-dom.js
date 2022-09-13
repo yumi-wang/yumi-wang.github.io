@@ -1,6 +1,6 @@
 document.getElementById("heading1").innerHTML = "JavaScript and its relationship to HTML and CSS"
 document.getElementById("para1").innerHTML = "HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are two critical technologies for building Web pages. HTML provides the structure of the page, and CSS is in charge of the style and layout. Think HTML is like kitchen appliances sketch, simple, black and white. CSS can decorate the drawing, making it colourful and delightful. But at this point, the appliances are still pictures without actual functioning."
-document.getElementById("para2").innerHTML = "JavaScript is the programming language of the Web. It can help to enhance the user experience interacting with web pages. It determines what happens when users click, hover or type within certain elements. JavaScript brings functions to kitchen appliances. Rice cookers can make rice, blenders can make smoothies, and jugs can boil water, etc."
+document.getElementById("para2").innerHTML = "JavaScript is the programming language of the Web. It can help to enhance the user experience interacting with web pages. It determines what happens when users click, hover or type within certain elements. JavaScript brings HTML and CSS to life. It is the REAL functioning kitchen appliances based on the draft. Rice cookers can make rice, blenders can make smoothies, and jugs can boil water, etc."
 
 
 document.getElementById("heading2").innerHTML = "Control flow and Loops"
