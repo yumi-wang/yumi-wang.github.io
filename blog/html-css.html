@@ -2,51 +2,47 @@
 <html>
   <head>
     <title>Yumi's Blog</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="../styles/icons8-pineapple-60.png">
+    <meta charset="UTF-8" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="../styles/icons8-pineapple-60.png" />
   </head>
 
-  
   <body>
     <div class="margin-body">
       <div>
         <header class="header">
           <h1>
-            <a href="../index.html">
-              yumi's blog
-          </a>
+            <a href="../index.html"> yumi's blog </a>
           </h1>
           <div class="header-right">
-            <img src="https://img.icons8.com/stickers/80/000000/pineapple.png"/>
+            <img
+              src="https://img.icons8.com/stickers/80/000000/pineapple.png"
+            />
           </div>
         </header>
-
-
 
         <main>
           <article>
             <header>
-              <h2 id="blog-h2-style">CSS position values: Relative, Absolute, and Fixed</h2>
-              <p>
-                10 September 2022
-              </p>
+              <h2 id="blog-h2-style">
+                CSS position values: Relative, Absolute, and Fixed
+              </h2>
+              <p>10 September 2022</p>
             </header>
             <br />
             <div>
-
               <p>
                 <strong>
-                  <em>
-                    What is the position property value?
-                  </em>
-                </strong> 
+                  <em> What is the position property value? </em>
+                </strong>
               </p>
 
               <p>
-                The position property value is a positioning method for element layout. It is what you use to manipulate the position of the elements. There are 5 different types of position values:
+                The position property value is a positioning method for element
+                layout. It is what you use to manipulate the position of the
+                elements. There are 5 different types of position values:
               </p>
 
               <ul>
@@ -55,124 +51,143 @@
                 <li>Absolute</li>
                 <li>Fixed</li>
                 <li>Sticky</li>
-             </ul>
+              </ul>
 
-             <br />
-
-             <p>
-              <strong>
-                <em>
-                  Static
-                </em>
-              </strong> 
-            </p>
-
-            <p>
-              Before jumping into today's topic, we must introduce static, the default position. An element with static positioning is positioned according to the normal flow of the document. It is like a piece of paper that stays still and provides a platform for other elements to move on top of it.  And so the top, right, bottom, left, and z-index properties does not affect it.
-            </p>
-
-            <br />
-
-            <p>
-              <strong>
-                <em>
-                  Relative
-                </em>
-              </strong> 
-            </p>
-
-            <p>
-              An element with this position value is placed in relation to its default position. It also follows the normal flow of the document. The top, right, bottom, and left properties are used to adjust the element away from its default position. 
-            </p>
-
-            <p>
-              When an element is relatively positioned, its default space will remain and does not affect the position of any other elements. You can imagine there are three circles drawn on paper. We can cut one out and move it around on the paper; its default position (the hole) will still be there. The other circles will remain in their position and won't be affected.  
-            </p>
-
-            <p>
-              Let's take a look at an example. The position of the egg is set to relative, and you can see its original position.   
-            </p>
-
-            <span id="html-css-img-style">
-              <img src="../styles/egg1 .png">
-              <img id="html-css-img-space" src="../styles/egg2-1 .png">
-            </span>
-            
-            <p>
-              If you want an egg on toast, what we need to do is to move the egg to its left, away from its right (right: 100px;). You can see the egg is on the toast, and its default position remains blank, not being taken by the pie. 
-            </p>
-
-            <span id="html-css-img-style">
-              <img src="../styles/egg3.png">
-              <img id="html-css-img-space" src="../styles/egg4.png">
-            </span>
-
-            <br />
-
-            <p>
-              <strong>
-                <em>
-                  Absolute
-                </em>
-              </strong> 
-            </p>
-
-            <p>
-              An element with this position value is removed from the document flow. 
-              It will be positioned relative to the closest positioned ancestor. If an element with absolute position has no positioned parent, it goes up to the grandparent element or the document body. And its default position will be taken by other element(s). 
-            </p>
-
-            <p>
-              It's like working on a word document with three paragraphs on it. If you cut the first one, the second one will automatically go up to where the paragraph one was. However, in CSS positioning, instead of being gone, the element will appear on another layer where its closest positioned parent is. 
-            </p>
-
-            <p>
-              Another example is we set the egg's position to absolute and adjust its position using top, bottom, left, and right. You can see the egg is taken out of the document flow, and its default position is taken by the pie. 
-            </p>  
-
-            <span id="html-css-img-style">
-              <img src="../styles/egg5.png">
-              <img id="html-css-img-space" src="../styles/egg6.png">
-            </span>
-
-            <br />
-
-            <p>
-              <strong>
-                <em>
-                  Fixed
-                </em>
-              </strong> 
-            </p>
+              <br />
 
               <p>
-                Fixed positioning is similar to absolute positioning. An element with this position value is removed from the document flow. And its default position will be taken by other element(s). Except for an element is positioned relative to the viewpoint (the current window we are looking at) when its position is set to fixed. The fixed positioned element stays in the exact same place of your screen window even if you are scrolling. Just like the egg on the bottom-right of the window!
+                <strong>
+                  <em> Static </em>
+                </strong>
+              </p>
+
+              <p>
+                Before jumping into today's topic, we must introduce static, the
+                default position. An element with static positioning is
+                positioned according to the normal flow of the document. It is
+                like a piece of paper that stays still and provides a platform
+                for other elements to move on top of it. And so the top, right,
+                bottom, left, and z-index properties does not affect it.
+              </p>
+
+              <br />
+
+              <p>
+                <strong>
+                  <em> Relative </em>
+                </strong>
+              </p>
+
+              <p>
+                An element with this position value is placed in relation to its
+                default position. It also follows the normal flow of the
+                document. The top, right, bottom, and left properties are used
+                to adjust the element away from its default position.
+              </p>
+
+              <p>
+                When an element is relatively positioned, its default space will
+                remain and does not affect the position of any other elements.
+                You can imagine there are three circles drawn on paper. We can
+                cut one out and move it around on the paper; its default
+                position (the hole) will still be there. The other circles will
+                remain in their position and won't be affected.
+              </p>
+
+              <p>
+                Let's take a look at an example. The position of the egg is set
+                to relative, and you can see its original position.
               </p>
 
               <span id="html-css-img-style">
-                <img src="../styles/fixed-egg.png">
+                <img src="../styles/egg1 .png" />
+                <img id="html-css-img-space" src="../styles/egg2-1 .png" />
+              </span>
+
+              <p>
+                If you want an egg on toast, what we need to do is to move the
+                egg to its left, away from its right (right: 100px;). You can
+                see the egg is on the toast, and its default position remains
+                blank, not being taken by the pie.
+              </p>
+
+              <span id="html-css-img-style">
+                <img src="../styles/egg3.png" />
+                <img id="html-css-img-space" src="../styles/egg4.png" />
+              </span>
+
+              <br />
+
+              <p>
+                <strong>
+                  <em> Absolute </em>
+                </strong>
+              </p>
+
+              <p>
+                An element with this position value is removed from the document
+                flow. It will be positioned relative to the closest positioned
+                ancestor. If an element with absolute position has no positioned
+                parent, it goes up to the grandparent element or the document
+                body. And its default position will be taken by other
+                element(s).
+              </p>
+
+              <p>
+                It's like working on a word document with three paragraphs on
+                it. If you cut the first one, the second one will automatically
+                go up to where the paragraph one was. However, in CSS
+                positioning, instead of being gone, the element will appear on
+                another layer where its closest positioned parent is.
+              </p>
+
+              <p>
+                Another example is we set the egg's position to absolute and
+                adjust its position using top, bottom, left, and right. You can
+                see the egg is taken out of the document flow, and its default
+                position is taken by the pie.
+              </p>
+
+              <span id="html-css-img-style">
+                <img src="../styles/egg5.png" />
+                <img id="html-css-img-space" src="../styles/egg6.png" />
+              </span>
+
+              <br />
+
+              <p>
+                <strong>
+                  <em> Fixed </em>
+                </strong>
+              </p>
+
+              <p>
+                Fixed positioning is similar to absolute positioning. An element
+                with this position value is removed from the document flow. And
+                its default position will be taken by other element(s). Except
+                for an element is positioned relative to the viewpoint (the
+                current window we are looking at) when its position is set to
+                fixed. The fixed positioned element stays in the exact same
+                place of your screen window even if you are scrolling. Just like
+                the egg on the bottom-right of the window!
+              </p>
+
+              <span id="html-css-img-style">
+                <img src="../styles/fixed-egg.png" />
               </span>
 
               <span id="egg-fixed-position">
-                  <img src="https://img.icons8.com/office/30/000000/sunny-side-up-eggs.png"/>
+                <img
+                  src="https://img.icons8.com/office/30/000000/sunny-side-up-eggs.png"
+                />
               </span>
-
-            
-              
-                  
-
-
             </div>
-
           </article>
         </main>
         <footer>
-          <p>
-            footer
-          </p>
+          <p>footer</p>
         </footer>
       </div>
-
     </div>
   </body>
 </html>
