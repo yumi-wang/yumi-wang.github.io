@@ -24,32 +24,29 @@ font-family: 'Ubuntu', sans-serif
 body {
   position: relative;
   background-color: white;
-  font-family: "Merriweather";
-  font-weight:300;
+  font-family: 'Merriweather';
+  font-weight: 300;
   letter-spacing: 0px;
   word-spacing: 0px;
-
 }
 
 .margin-body {
-  position: relative; 
-  left: 0; 
-  right: 0; 
+  position: relative;
+  left: 0;
+  right: 0;
   margin: auto;
-  max-width: 650px;
+  max-width: 750px;
   padding: 20px 20px;
   overflow: auto;
-
 }
 
 /*header design*/
 .header {
-  display:flex;
+  display: flex;
   align-items: center;
   background-color: white;
   justify-content: space-between;
   margin-bottom: 70px;
-
 }
 
 .header-right {
@@ -58,9 +55,9 @@ body {
 }
 
 h1 {
-  color: #998f0671; 
-  font-family: "Amatic SC";
-  font-size: 50px; 
+  color: #998f0671;
+  font-family: 'Amatic SC';
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -70,13 +67,13 @@ h1 {
   margin-top: 0px;
 }
 
-h1 a, h1 a:visited {
+h1 a,
+h1 a:visited {
   position: relative;
   text-decoration: none;
-  color: #998f0671; 
+  color: #998f0671;
   /*font-variant: small-caps;*/
 }
-
 
 /*main design*/
 .red-box {
@@ -84,10 +81,10 @@ h1 a, h1 a:visited {
   background-color: white;
   margin-bottom: 40px;
   padding: 0px 0px;
-} 
+}
 
 h2 {
-  font-family: "Candal", sans-serif;
+  font-family: 'Candal', sans-serif;
   font-weight: 400;
   font-size: 28px;
   color: #678450cb;
@@ -95,10 +92,10 @@ h2 {
   line-height: 40px;
   margin-bottom: 10px;
   margin-top: 0px;
-  
 }
 
-h2 a, a:visited {
+h2 a,
+a:visited {
   text-decoration: none;
   color: #678450cb;
   text-align: left;
@@ -120,7 +117,7 @@ small {
   position: relative;
   /*color: rgb(121, 49, 97);*/
   text-align: left;
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 15px;
   margin: 0px;
 }
@@ -165,16 +162,17 @@ footer {
     margin-bottom: 50px;
   }
 
-  h1 {font-size: 45px;
+  h1 {
+    font-size: 45px;
   }
   #pineapple-size {
-    width: 60px
+    width: 60px;
   }
 
   /*main*/
   .red-box {
     margin-bottom: 20px;
-  } 
+  }
 
   h2 {
     font-size: 23px;
@@ -192,24 +190,16 @@ footer {
     font-size: 28px;
     font-weight: 600;
   }
-
-  
-
- 
-  
 }
 
 @media screen and (max-width: 600px) {
-
   #html-css-img-style {
     flex-direction: column;
   }
 
-   #html-css-img-space {
+  #html-css-img-space {
     margin-top: 30px;
   }
-
-
 }
 
 @media screen and (max-width: 1100px) {
@@ -234,26 +224,29 @@ footer {
 }
 
 #egg-fixed-position {
-  position:fixed;
+  position: fixed;
   bottom: 0px;
   right: 20%;
 }
 
-#js-dom-img-style {
+#blog-img {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 30px;
 }
 
-#js-dom-img-style img {
+#blog-img img {
   max-width: 100%;
   height: auto;
   border: 2px dashed #c5c5c5d3;
   border-radius: 15px;
 }
 
+#img-no-border {
+  border: 0px dashed #c5c5c5d3 !important;
+}
+
 #text-highlight {
   background-color: #c5c5c5d3;
-  
 }
