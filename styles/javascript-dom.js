@@ -1,10 +1,11 @@
 pineapple = document.getElementById('js-dom-example')
-console.log(pineapple)
+
 pineapple.addEventListener('click', () => {
   get_name = prompt('Please enter you name:')
-  get_name != ''
-    ? alert(`Hello ${get_name}, welcome to my blog!`)
-    : alert(`Hello anonymous friend, welcome to my blog!`)
+  
+  get_name === '' || get_name === null
+    ? process.exit()
+    : alert(`Hello ${get_name}, welcome to my blog!`)
 })
 
 document.getElementById('heading1').innerHTML =
