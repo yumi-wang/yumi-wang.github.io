@@ -15,7 +15,7 @@ document.getElementById('para1-2').innerHTML =
   'JavaScript is the programming language of the Web. It can help to enhance the user experience interacting with web pages. It determines what happens when users click, hover or type within certain elements. JavaScript brings HTML and CSS to life. It is the REAL functioning kitchen appliances based on the draft. Rice cookers can make rice, blenders can make smoothies, and jugs can boil water, etc.'
 document.getElementById(
   'para1-3'
-).innerHTML = `As mentioned, if a webpage only uses HTML and CSS, it only provides input for its audience. But with JavaScript, people can also interact with the page. Try to click the pineapple, and see what will happen!`
+).innerHTML = `As mentioned, if a webpage only uses HTML and CSS, it can be a bit plain for its audience. But with JavaScript, people can also interact with the page. Try to click the pineapple and see what will happen!`
 
 document.getElementById('heading2').innerHTML = 'Control flow and Loops'
 
